@@ -17,17 +17,25 @@
 	
 	
 	<style type="text/css">
-		div.promodiv {
+		.promo {
+			background-color: #eef2f6;
 			background-image: url(img/bg-400x600.png);
 			background-position: bottom;
+			background-repeat: no-repeat;
 			background-size: cover;
 			border-top: 6px solid #1330bf;
 			border-bottom: 2px solid #ddd;
 			min-height: 600px;
+			overflow: hidden;
+			padding: 0;
+			position: relative;
+		}
+		
+		.promo-content {
 			padding: 12px;
 		}
 		
-		h2.promodiv {
+		h2.tagline {
 			font-family: 'Roboto', sans-serif;
 			font-size: 2em;
 			font-style: normal;
@@ -37,7 +45,7 @@
 			padding: 0;
 		}
 		
-		p.promodiv {
+		p.download {
 			font-family: 'Roboto', sans-serif;
 			font-size: 1em;
 			font-style: normal;
@@ -47,18 +55,53 @@
 			padding: 0;
 		}
 		
+		.phones {
+			background-color: transparent;
+			background-image: url(img/en_phones_400x475.png);
+			background-position: bottom -100px left 50%;
+			background-repeat: no-repeat;
+			background-size: contain;
+			height: 475px;
+			margin: 0 auto;
+			max-width: 100%;
+			overflow: hidden;
+			padding: 0;
+			position: absolute;
+			top: 30%;
+			width: 400px;
+			z-index: 1;
+		}
+		
 		@media (min-width: 800px) {
-			div.promodiv {
+			.promo {
 				background-image: url(img/bg-1232x250.png);
 				min-height: 250px;
+				padding: 0;
+			}
+			
+			.promo-content {
 				padding: 24px;
+			}
+			
+			.phones {
+				right: 0%;
+				top: 0%;
+				z-index: 1;
 			}
 		}
 	</style>
 	
-	<div class="promodiv">
-		<h2 class="promodiv">Download our new app today</h2>
-		<p class="promodiv">The VOA Persian app is free!</p>
+	<div class="promo">
+		
+		<div class="promo-content">
+			<h2 class="tagline">Download our new app today</h2>
+			<p class="download">The VOA Persian app is free!</p>
+			<a href="" target="_blank"><img src="img/en_ios-app-store_80x240.png" height="40" width="120" alt="Download on the App Store" /></a>
+			<a href="" target="_blank"><img src="img/en_google-play_80x270.png" height="40" width="135" alt="Get it on Google Play" /></a>
+		</div>
+		
+		<div class="phones"></div>
+		
 	</div> 
 
 <?php if (!isset($_GET['export'])) { ?>	
