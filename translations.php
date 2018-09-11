@@ -32,7 +32,7 @@ $translations = array(
 		'ios_alt'   => 'Téléchargez sur l’App Store',
 		'ios_url'   => 'https://itunes.apple.com/app/id1390545562',
 		'play_alt'  => 'Téléchargez sur Google Play',
-		'play_url'  => ''
+		'play_url'  => 'https://play.google.com/store/apps/details?id=com.audionowdigital.player.voaafrique'
 	),
 	
 	'hausa' => array(
@@ -69,7 +69,7 @@ $translations = array(
 	),
 	
 	'pashto' => array(
-		'lang'      => '',
+		'lang'      => 'ps',
 		'dir'       => 'rtl',
 		'headline'  => 'زموږ نوی اپلکیشن ډانلوډ کړئ',
 		'subhead'   => 'اپلکیشن په اپل سټور او پلې سټور کې موندلی شی',
@@ -80,7 +80,7 @@ $translations = array(
 	),
 	
 	'urdu' => array(
-		'lang'      => '',
+		'lang'      => 'ur',
 		'dir'       => 'rtl',
 		'headline'  => 'آج ہی وی او اے کی نئی ایپ ڈاون لوڈ کیجئے',
 		'subhead'   => 'یہ اپپ اینڈروائڈ اور ایپل میں دستیاب ہے',
