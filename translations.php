@@ -21,7 +21,8 @@ $translations = array(
 		'ios_alt'   => 'App Store တြင္ ေဒါင္းလုတ္ယူပါ',
 		'ios_url'   => 'https://apps.apple.com/app/id1385522925',
 		'play_alt'  => 'Google Play တြင္ ေဒါင္းလုတ္ယူပါ',
-		'play_url'  => 'https://play.google.com/store/apps/details?id=com.audionowdigital.player.voaburmese'
+		'play_url'  => 'https://play.google.com/store/apps/details?id=com.audionowdigital.player.voaburmese',
+		'fonts'     => '"Zawgyi-One", "Zawgyi1", "Zawgyi-One-Embedded", sans-serif'
 	),
 	
 	'dari' => array(

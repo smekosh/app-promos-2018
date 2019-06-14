@@ -26,7 +26,7 @@ if ( !isset( $_GET['export'] )) {
 
 	.wrapper-<?php echo $widget_name; ?> {
 		background-color: #eef2f6;
-		border-top: 6px solid #1330bf;
+		border-top: 6px solid #3a79b7;
 		padding: 0;
 		position: relative;
 		<?php if (isset($_GET['width'])) { echo "max-width: {$_GET['width']};"; } ?>
@@ -37,7 +37,7 @@ if ( !isset( $_GET['export'] )) {
 		background-position: bottom;
 		background-repeat: no-repeat;
 		background-size: cover;
-		border-color: #ccc;
+		border-color: #dee5eb;
 		border-style: solid;
 		border-width: 0 2px 2px 2px;
 		height: 500px;
@@ -49,8 +49,8 @@ if ( !isset( $_GET['export'] )) {
 	}
 
 	h2.tagline-<?php echo $widget_name; ?> {
-		color: #222;
-		font-family: sans-serif;
+		color: #222f3a;
+		font-family: <?php echo (isset($data['fonts']) ? $data['fonts'] : 'sans-serif'); ?>;
 		font-size: 28px;
 		font-style: normal;
 		font-weight: normal;
@@ -66,7 +66,7 @@ if ( !isset( $_GET['export'] )) {
 	}
 
 	.dl-buttons-<?php echo $widget_name; ?> > a.btn-<?php echo $widget_name; ?> {
-		color: #1330bf;
+		color: #3a79b7;
 		display: inline-block;
 		line-height: 1;
 		margin: 3px 6px;
@@ -86,8 +86,8 @@ if ( !isset( $_GET['export'] )) {
 	}
 
 	p.secondary-text-<?php echo $widget_name; ?> {
-		color: #222;
-		font-family: sans-serif;
+		color: #222f3a;
+		font-family: <?php echo (isset($data['fonts']) ? $data['fonts'] : 'sans-serif'); ?>;
 		font-size: 16px;
 		font-style: normal;
 		font-weight: bold;
@@ -144,13 +144,13 @@ if ( !isset( $_GET['export'] )) {
 			</div>
 			
 			<img class="phones-<?php echo $widget_name; ?>" 
-			    srcset="<?php echo $asset_directory; ?>/img/<?php echo $data['lang']; ?>/<?php echo $data['lang']; ?>_phones_175x231.png 175w,
-			            <?php echo $asset_directory; ?>/img/<?php echo $data['lang']; ?>/<?php echo $data['lang']; ?>_phones_350x462.png 350w,
-			            <?php echo $asset_directory; ?>/img/<?php echo $data['lang']; ?>/<?php echo $data['lang']; ?>_phones_700x924.png 700w"
+			    srcset="<?php echo $asset_directory; ?>/img/<?php echo $data['lang']; ?>/<?php echo $data['lang']; ?>_phones_175x248.png 175w,
+			            <?php echo $asset_directory; ?>/img/<?php echo $data['lang']; ?>/<?php echo $data['lang']; ?>_phones_350x495.png 350w,
+			            <?php echo $asset_directory; ?>/img/<?php echo $data['lang']; ?>/<?php echo $data['lang']; ?>_phones_700x990.png 700w"
 			     sizes="(max-width: 200px) 175px,
 			            (max-width: 400px) 350px,
 			            700px"
-			       src="<?php echo $asset_directory; ?>/img/<?php echo $data['lang']; ?>/<?php echo $data['lang']; ?>_phones_175x231.png" 
+			       src="<?php echo $asset_directory; ?>/img/<?php echo $data['lang']; ?>/<?php echo $data['lang']; ?>_phones_175x248.png" 
 			       alt="" />
 			       
 		</div>
