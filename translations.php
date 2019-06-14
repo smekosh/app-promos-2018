@@ -2,17 +2,6 @@
 
 $translations = array(
 	
-	'dari' => array(
-		'lang'      => '',
-		'dir'       => 'rtl',
-		'headline'  => 'اپلکیشن جدید ما را دانلود کنید',
-		'subhead'   => 'اپلکیشن در اپل ستور و پلی ستور در دسترس است',
-		'ios_alt'   => 'دانلود اپلیکشین صدای امریکا از اپل ستور',
-		'ios_url'   => 'https://itunes.apple.com/app/id1410784178',
-		'play_alt'  => 'دانلود اپلیکشین صدای امریکا از گوگل پلی',
-		'play_url'  => 'https://play.google.com/store/apps/details?id=com.voanews.voaafghan'
-	),
-	
 	'english' => array(
 		'lang'      => 'en',
 		'dir'       => 'ltr',
@@ -22,6 +11,28 @@ $translations = array(
 		'ios_url'   => 'https://itunes.apple.com/app/id1414561730',
 		'play_alt'  => 'Get it on Google Play',
 		'play_url'  => 'https://play.google.com/store/apps/details?id=com.voanews.voaenus'
+	),
+	
+	'burmese' => array(
+		'lang'      => 'my',
+		'dir'       => 'ltr',
+		'headline'  => 'ဗီြအိုေအ App အသစ္ကို ယခုပဲ ရယူလိုက္ပါ',
+		'subhead'   => 'iOS ႏွင့္ Android ႏွစ္မ်ဳိးလံုးအတြက္ ရပါၿပီ',
+		'ios_alt'   => 'App Store တြင္ ေဒါင္းလုတ္ယူပါ',
+		'ios_url'   => 'https://apps.apple.com/app/id1385522925',
+		'play_alt'  => 'Google Play တြင္ ေဒါင္းလုတ္ယူပါ',
+		'play_url'  => 'https://play.google.com/store/apps/details?id=com.audionowdigital.player.voaburmese'
+	),
+	
+	'dari' => array(
+		'lang'      => '',
+		'dir'       => 'rtl',
+		'headline'  => 'اپلکیشن جدید ما را دانلود کنید',
+		'subhead'   => 'اپلکیشن در اپل ستور و پلی ستور در دسترس است',
+		'ios_alt'   => 'دانلود اپلیکشین صدای امریکا از اپل ستور',
+		'ios_url'   => 'https://itunes.apple.com/app/id1410784178',
+		'play_alt'  => 'دانلود اپلیکشین صدای امریکا از گوگل پلی',
+		'play_url'  => 'https://play.google.com/store/apps/details?id=com.voanews.voaafghan'
 	),
 	
 	'french' => array(
